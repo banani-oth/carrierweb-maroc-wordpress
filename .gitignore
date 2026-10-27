@@ -1,0 +1,36 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+wp-config.php
+.maintenance
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Site data and backups
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+*.log
+*.zip
+*.tar.gz
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/plugins/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+
+# Development files
+**/node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Unused crawler metadata
+**/llms.txt

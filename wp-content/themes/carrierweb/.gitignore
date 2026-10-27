@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Les fichiers compilés de assets/dist/ sont versionnés.
